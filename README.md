@@ -1,7 +1,10 @@
 # Slack Clone
 ## [Live Demo](https://niks-slack-clone.web.app)
 
-This project uses React.js and Firebase.
+This project uses React.js and Firebase. 
+
+Uses Firebase for Google authentification. Also Uses React Router and React Context API
+
 
 
 ### Getting Started with Create React App
