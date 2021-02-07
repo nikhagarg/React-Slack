@@ -1,0 +1,78 @@
+#editProfileModal {
+    box-shadow: 0 0 0 1px var(--saf-0),0 18px 48px 0 rgba(0,0,0,.35);
+    border-radius: 8px;
+    width: 400px;
+    padding: 16px 32px 24px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.modal_heading {
+    font-size: 22px;
+    line-height: 1.36365;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+#editProfileModal > h4 {
+
+}
+
+.modal_input {
+    height: 30px;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.modal_image{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.modal_image > img {
+    object-fit: contain;
+    border-radius: 4px;
+    width: 192px;
+    height: 192px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.modal_upload_button {
+    margin: 10px 0 !important;
+    width: 192px;
+    border: 1px solid !important;
+    text-transform: none !important;
+    font-weight: 600 !important;
+}
+
+#editProfileModal > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.modal_buttons {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.modal_buttons > button {
+    margin: 10px;
+    text-transform: inherit !important;
+}
+
+.modal_buttons_save {
+    background-color: #0a8d48 !important;
+}
+
+.modal_progress_bar {
+    margin-top: 0.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+}

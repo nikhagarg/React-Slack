@@ -1,0 +1,32 @@
+.chat {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_body {
+    flex: 1;
+    overflow-y: scroll; 
+}
+
+.chat_body_header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+}
+
+.chat_body_header > h2 {
+    margin-bottom: 10px;
+}
+
+.chat_body_header > h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+

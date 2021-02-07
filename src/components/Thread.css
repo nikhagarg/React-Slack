@@ -1,0 +1,27 @@
+.thread {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: hidden;
+    height: 100vh;
+    
+    /* To centre the entire card on the page  */
+    display: grid;
+    place-items: center;
+}
+
+.thread_container  {
+    padding: 100px;
+    text-align: center;
+    width: 500px;
+}
+
+.thread_container > h5 {
+    font-size: 18px;
+    line-height: 1.36365;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.thread_container > p {
+}
+

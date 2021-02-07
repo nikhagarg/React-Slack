@@ -1,0 +1,51 @@
+.directMessage {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.directMessage_body {
+    flex: 1;
+    overflow-y: scroll; 
+    /*  to start appending the body from bottom-up */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+}
+
+.dm_body_header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+
+}
+
+.dm_body_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dm_body_info > h3 {
+    margin-left: 10px;
+}
+
+.dm_body_header > h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.directMessage_body_avatar {
+    object-fit: contain;
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.directMessage_footer {
+    flex: 0;
+}

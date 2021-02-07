@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: var(--slack-color);
+    justify-content: space-between;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    flex: 0.3 ;
+    /* it means take 30% space for this container inside the header container */
+    padding: 0 0.5rem;
+}
+
+#header_left_timeIcon {
+    margin-left: auto;
+}
+
+.header_search {
+    flex: 0.4;
+    background-color: #421f44;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.header_search > p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    flex: 0.3 ;
+    padding: 0 0.5rem;
+}
+
+#header_right_avatar {
+    margin-left: auto;
+}
+
+.header_profile_menu > .MuiPaper-root {
+    top: 6vh !important; 
+}
+
+.header_profile_menu > .MuiPaper-root > ul > li {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}

@@ -1,0 +1,58 @@
+.header_search_input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: initial;
+}
+
+.header_search_menu > .MuiPaper-root{
+    right: 27vw;
+}
+
+#seach_icon {
+    font-size: large;
+    color: gray;
+    margin-right: 10px;
+}
+
+.header_search_input:focus {
+    outline: none;
+}
+
+.search_menu_item_input {
+    border-bottom: 1px solid lightgray !important;
+    margin-bottom: 15px !important;
+}
+
+.search_menu_item {
+    padding: 0.5rem 3rem;
+    /* font-size: small; */
+    display: flex;
+    align-items: center;
+}
+
+#menu_item_avatar {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.search_menu_item:hover {
+    background-color: #1264A3;
+    color: white;
+    font-weight: 800;
+}
+
+.MuiPaper-rounded {
+    border-radius: 7px !important;
+}
+
+#hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
